@@ -1,4 +1,9 @@
-# linear_regression_normal_equation
+# Linear Regression with two different methods
 
-This regression could be used for n features of x as well, but for the sake of simplicity, I just used one feature. 
-Therefore this can only be used to graph on a x, y plane, but if the code is changed, could accept any number of features, just make sure to scale the input to reflect that.
+## linearRegression.ipynb
+
+This file implements normal equation linear algebra to come up with a line to fit the data
+
+## gradenscent.ipynb
+
+This file inplements batch gradient descent to minimize the mean squared loss to fit a line to the data 
